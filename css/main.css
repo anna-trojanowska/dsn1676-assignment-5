@@ -1,0 +1,122 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust-100%;
+	-ms-text-size-adjust-100%;
+	-webkit-text-size-adjust-100%;
+	-text-size-adjust-100%;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after; {
+	box-sizing: inherit;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+
+.holder {
+    padding: 0;
+    margin: auto;
+    border: solid 4px tomato;
+    border-radius: 20px;
+    background-color: tomato;
+    min-width: 20em;
+    max-width: 20em;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+.list-holder {
+    padding: 0;
+    margin: auto;
+    background-color: lightsalmon;
+    width: 20em;
+    overflow: hidden;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin-left: .5em;
+}
+
+
+.delete{
+    color: white;
+    font-weight: bold;
+    border: solid 2px tomato;
+    border-radius: 5px;
+    float: right;
+    text-align: center;
+    margin-right: 1.2em;
+    height: 3em;
+    width: 2.5em;
+    background-color: tomato;
+}
+
+.delete:hover {
+    background-color: coral;
+    color: white;
+}
+
+li {
+    font-size: 1.25em;
+    margin-top: 1.25em;
+}
+
+.label {
+    font-family: serif;
+    display: block;
+    text-transform: uppercase;
+}
+
+.main-input {
+    border: solid 4px steelblue;
+    float: left;
+    padding: .85em;
+    width: 15em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: snow;
+}
+
+.add {
+    font-family: serif;
+    float: right;
+    text-align: center;
+    color: white;
+    margin-right: 2em;
+    width: 4.5em;
+    padding: .35em;
+    border: solid 2px steelblue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: steelblue;
+    overflow: hidden;
+}
+
+.add:hover {
+    background-color: lightsteelblue;
+    color: white;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: white;
+}
