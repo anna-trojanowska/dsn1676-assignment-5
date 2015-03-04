@@ -19,7 +19,8 @@ html {
 }
 
 body {
-    background-color: lightsteelblue;
+    background-color: white;
+    background-image: url(../images/lines.svg)
 }
 
 
